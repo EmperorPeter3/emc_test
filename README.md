@@ -1,4 +1,4 @@
-# emc_test
+# EMC_test_application README
 
 # Team:
 
