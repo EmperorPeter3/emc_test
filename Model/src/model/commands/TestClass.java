@@ -1,5 +1,8 @@
 package model.commands;
 
+import org.json.simple.JSONArray;
+import org.json.simple.JSONObject;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -9,10 +12,8 @@ import java.nio.file.Paths;
 
 public class TestClass {
     public static void main(String args[]) throws IOException {
-
-        CommandModel model = new CommandModel();
-        model.Initialize("d:\\Programms\\TestFiles\\root");
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+        CommandModel model = new CommandModel("d:\\Programms\\TestFiles\\root");
         String cmd = "";
         while(true) {
             try {
@@ -25,5 +26,6 @@ public class TestClass {
                 System.out.println(e.getMessage());
             }
         }
+
     }
 }
