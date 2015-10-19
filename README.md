@@ -1,6 +1,7 @@
 # EMC_test_application README
 
-# Team:
+
+# Our team:
 
 ## Domnin Alexey
 ## Martynov Rodion
